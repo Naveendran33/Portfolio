@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" width="36" height="36" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="badgeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08b6c0" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#33d097" stop-opacity="0.3" />
+    </linearGradient>
+    <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08b6c0" />
+      <stop offset="100%" stop-color="#0db894" />
+    </linearGradient>
+    <filter id="badgeShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  <!-- Frosted Glass Backing -->
+  <rect x="2" y="2" width="32" height="32" rx="10" fill="#08b6c0" fill-opacity="0.12" stroke="url(#badgeBorder)" stroke-width="1.5" filter="url(#badgeShadow)" />
+  <!-- Vibrant Location Pin -->
+  <path d="M18 8c-3.314 0-6 2.686-6 6 0 4.5 6 11.5 6 11.5s6-7 6-11.5c0-3.314-2.686-6-6-6z" fill="url(#pinGrad)" />
+  <!-- Center Highlight Dot -->
+  <circle cx="18" cy="14" r="2.3" fill="#ffffff" />
+</svg>
